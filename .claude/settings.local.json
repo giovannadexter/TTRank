@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 manage.py check:*)",
+      "Bash(python3 manage.py runserver:*)",
+      "Bash(curl:*)",
+      "Bash(lsof:*)",
+      "Bash(kill:*)",
+      "Bash(npm uninstall:*)"
+    ],
+    "deny": []
+  }
+}
