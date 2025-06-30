@@ -1,6 +1,14 @@
 {
   "permissions": {
     "allow": [
+      "Bash(python3 manage.py check:*)",
+      "Bash(python3 manage.py runserver:*)",
+      "Bash(curl:*)",
+      "Bash(lsof:*)",
+      "Bash(kill:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
       "Bash(mkdir:*)",
       "Bash(npm install:*)",
       "Bash(npx tailwindcss init:*)",
@@ -11,7 +19,8 @@
       "Bash(python3 manage.py migrate:*)",
       "Bash(npm run dev:*)",
       "Bash(npm run build:*)",
-      "Bash(chmod:*)"
+      "Bash(chmod:*)",
+      "Bash(rm:*)"
     ],
     "deny": []
   }
